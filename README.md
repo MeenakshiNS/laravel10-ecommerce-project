@@ -75,18 +75,21 @@ https://docs.google.com/spreadsheets/d/1Lf_f3iBPVsbPJJ-IrtYCtkwRoXHX2l22iu3IFIj2
 
 Features implemented
 --------------------
-user                                                  ADMIN
-====                                                 =======
-1.Login and registration                            1.Login
-2.Home page Like e-commerce                         2. Order management
-3.product page                                      3.Change status order
-4.cart page                                         4.stock management.
+user                                                  
+====                                                
+1.Login and registration                            
+2.Home page Like e-commerce                         
+3.product page                                     
+4.cart page                                        
 5.Address Management
 6.Product Reviews
 7.Profile Page(Orders,Wishlist)
 8.Payment gateway - Razorpay/COD
 
 
-
-
-
+ADMIN
+=======
+1.Login
+2. Order management
+3.Change status order
+4.stock management.
