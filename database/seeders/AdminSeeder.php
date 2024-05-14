@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Admin;
 
 
 use Illuminate\Support\Facades\DB;
@@ -17,11 +18,11 @@ class AdminSeeder extends Seeder
      */
     public function run(): void
     {
-        $password = 'meenu';
-        DB::table('admins')->insert([
-            'name' => Str::random(10),
-            'username' => Str::random(10),
-            'password' => Hash::make('$password'),
+
+        Admin::create([
+            'name' => 'Admin',
+            'username'=>'meenu',
+            'password'=>bcrypt('meenu')
         ]);
     }
 }
